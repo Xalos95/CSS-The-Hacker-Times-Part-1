@@ -1,10 +1,91 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
 
 body{
-    background-color: grey;
+    background-color: #eee;
+    font-family: Source Sans Pro;
+}
+
+.date {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.newspaper-container{
+    background: white;
+    border: 5px solid #eee;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0px 10px;
+    width: 700px;
+    border-radius: 10px 10px;
+    box-shadow: 10px 10px 10px #ddd;
+}
+
+h1 {
+    text-align: center;
+    font-family: Abril Fatface;
+}
+
+main {
+    padding-left: 5px;
+    padding-bottom: 15px;
+}
+
+main img{
+    width: 100%;
+}
+
+main p{
+    text-align: justify;
+    font-family: Source Sans Pro;
+}
+
+h2 {
+    font-family: Roboto Slab ;
+}
+
+h5 {
+    font-family: Roboto Slab;
+    color: red;
 }
 
 nav{
-    position: fixed;
-    top: 0;
+    display: inline-block;
+    background: white;
+    width: 100%;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
 }
+
+nav li{
+    display: inline-block;
+    padding: 1px;
+    color: #777;
+}
+nav ul{
+    list-style: none;
+}
+
+.more-articles {
+    border-top: 3px solid #ddd;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-left: 15px;
+    text-align: justify;
+}
+
+.more-articles img{
+    width: 100%;
+}
+
+h4{
+    font-family: Roboto Slab, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.more-articles section{
+    display: inline-block; 
+    width: 44%;
+    margin: 0 1em;
+}
+
+
